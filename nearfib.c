@@ -28,6 +28,10 @@ int fib_search(int n)
 			{
 				printf("%d",a);
 			}
+			else if(x==y)
+			{
+				printf("%d%d",a,c);
+			}
 			else
 			{
 				printf("%d",c);
