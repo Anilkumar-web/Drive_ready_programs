@@ -24,7 +24,7 @@ int fib_search(int n)
 		{
 			x=n-a;
 			y=c-n;
-			if(x<y)
+			if(x<=y)
 			{
 				printf("%d",a);
 			}
